@@ -10,6 +10,11 @@ public class BedroomLight implements Command {
     @Override
     public void execute() {
         this.lightState = !this.lightState;
+        if(isLightState()){
+            System.out.println("Light is on");
+        }else{
+            System.out.println("Light is off");
+        }
     }
 
     public BedroomLight(){

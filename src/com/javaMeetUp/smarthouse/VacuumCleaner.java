@@ -7,6 +7,8 @@ import javax.xml.bind.SchemaOutputResolver;
  */
 public class VacuumCleaner implements Command {
 
+    boolean isOn;
+
 
     @Override
     public void execute() {

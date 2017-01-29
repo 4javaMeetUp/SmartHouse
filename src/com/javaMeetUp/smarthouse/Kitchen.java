@@ -1,9 +1,8 @@
 package com.javaMeetUp.smarthouse;
 
-public class Kitchen implements Command {
+public class Kitchen extends AbstractRoom implements Command {
 
     private boolean lightIsOn;
-
 
     public Kitchen() {
         this.lightIsOn = false;

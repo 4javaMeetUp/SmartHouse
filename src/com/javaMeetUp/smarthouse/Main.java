@@ -3,6 +3,8 @@ package com.javaMeetUp.smarthouse;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here 11
+	    Kitchen k = new Kitchen();
+	    k.execute();
+	    k.execute();
     }
 }

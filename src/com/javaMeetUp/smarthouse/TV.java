@@ -19,6 +19,9 @@ public class TV implements Command{
         isTurnOnOff = true;
     }
 
+    public void TurnOff(){
+        isTurnOnOff = false;
+    }
     @Override
     public void execute() {
         System.out.println("Телевизор существует");

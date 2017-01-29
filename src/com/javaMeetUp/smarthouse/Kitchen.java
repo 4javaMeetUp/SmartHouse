@@ -4,6 +4,7 @@ public class Kitchen implements Command {
 
     private boolean lightIsOn;
 
+
     public Kitchen() {
         this.lightIsOn = false;
     }

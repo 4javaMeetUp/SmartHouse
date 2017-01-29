@@ -7,6 +7,7 @@ public class BedroomLight implements Command {
 
     private boolean lightState;
 
+    
     @Override
     public void execute() {
         this.lightState = !this.lightState;

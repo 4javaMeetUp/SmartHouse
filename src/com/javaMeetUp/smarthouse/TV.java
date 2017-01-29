@@ -13,7 +13,11 @@ public class TV implements Command{
     //включение телевизара
 
     //статус (вкоючен выключен)
-    boolean isTurnOff;
+    protected boolean isTurnOnOff;
+
+    public void TurnOn(){
+        isTurnOnOff = true;
+    }
 
     @Override
     public void execute() {
